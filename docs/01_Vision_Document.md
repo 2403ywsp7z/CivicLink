@@ -462,3 +462,355 @@ Every completed complaint requires citizen feedback.
 ---
 
 # End of Chapter 2
+
+---
+
+# Chapter 3 – Functional Requirements
+
+## 3.1 Authentication Module
+
+### FR-001 User Registration
+- Users can register using their mobile number.
+- OTP verification is mandatory.
+
+### FR-002 User Login
+- Secure OTP login.
+- JWT authentication.
+- Session management.
+
+---
+
+## 3.2 Complaint Management
+
+### FR-003 Register Complaint
+
+Citizen can:
+
+- Select department
+- Select ward
+- Add title
+- Add description
+- Upload images
+- Share live location
+
+---
+
+### FR-004 Complaint Tracking
+
+Citizen can:
+
+- View complaint status
+- View assigned officer
+- View expected completion date
+- View work progress
+
+---
+
+### FR-005 Complaint History
+
+Citizen can view all previous complaints.
+
+---
+
+### FR-006 Complaint Feedback
+
+Citizen can rate completed work.
+
+---
+
+## 3.3 Project Management
+
+### FR-007 Public Project Tracking
+
+Citizens can:
+
+- View ongoing projects
+- View budget
+- View completion percentage
+- View project images
+
+---
+
+### FR-008 Project Updates
+
+Engineers upload:
+
+- Images
+- Progress
+- Completion reports
+
+---
+
+## 3.4 Emergency Module
+
+### FR-009 Emergency Contacts
+
+Available:
+
+- Ambulance
+- Police
+- Fire
+- Hospitals
+
+---
+
+### FR-010 Emergency Request
+
+Citizen can request emergency assistance.
+
+---
+
+## 3.5 Announcement Module
+
+### FR-011 Public Announcements
+
+Nagar Sevak can publish:
+
+- Water shutdown
+- Road closure
+- Public meetings
+- Government notices
+
+---
+
+## 3.6 Notification Module
+
+### FR-012 Notifications
+
+System sends notifications for:
+
+- Complaint updates
+- Emergency alerts
+- Announcements
+
+---
+
+## 3.7 Dashboard
+
+### FR-013 Citizen Dashboard
+
+Displays:
+
+- Active complaints
+- Completed complaints
+- Notifications
+- Projects
+
+---
+
+### FR-014 Officer Dashboard
+
+Displays:
+
+- Assigned complaints
+- Pending work
+- Completed work
+
+---
+
+### FR-015 Admin Dashboard
+
+Displays:
+
+- Users
+- Departments
+- Analytics
+- Reports
+- Ward statistics
+
+---
+
+## 3.8 AI Module
+
+### FR-016 AI Complaint Analysis
+
+AI will:
+
+- Detect complaint category
+- Detect severity
+- Estimate priority
+- Detect fake image (future)
+
+---
+
+### FR-017 AI Chatbot
+
+Citizen assistance chatbot.
+
+---
+
+## 3.9 Asset Management
+
+### FR-018 Public Assets
+
+Track:
+
+- Street Lights
+- Roads
+- Drains
+- Water Tanks
+- Dustbins
+- Parks
+
+---
+
+## 3.10 Reports
+
+### FR-019 Reports
+
+Generate:
+
+- Monthly reports
+- Ward reports
+- Complaint reports
+- Department reports
+
+---
+
+## 3.11 User Management
+
+### FR-020 Manage Users
+
+Admin can:
+
+- Add users
+- Remove users
+- Suspend users
+- Change roles
+
+---
+
+# End of Chapter 3
+
+---
+
+# Chapter 4 – Non-Functional Requirements
+
+## Performance
+
+- Response time less than 3 seconds.
+- Support 100,000+ users.
+
+## Security
+
+- OTP Authentication
+- JWT
+- Password Hashing
+- HTTPS
+- Role-Based Access Control
+
+## Reliability
+
+- 99.9% uptime
+- Daily backup
+
+## Scalability
+
+- Cloud deployment
+- Auto scaling
+- Load balancing
+
+## Availability
+
+- 24×7 system availability
+
+## Maintainability
+
+- Modular architecture
+- API documentation
+- Version control
+
+## Usability
+
+- Responsive UI
+- Easy navigation
+- Mobile friendly
+
+## Compatibility
+
+- Chrome
+- Edge
+- Firefox
+- Android
+- Future iOS
+
+---
+
+# End of Chapter 4
+
+
+---
+
+# Chapter 5 – Technology Stack
+
+## Frontend
+
+- Next.js
+- React
+- Tailwind CSS
+- TypeScript
+
+## Backend
+
+- NestJS
+- Node.js
+
+## Database
+
+- PostgreSQL
+
+## Cache
+
+- Redis
+
+## Storage
+
+- AWS S3
+
+## Authentication
+
+- JWT
+- OTP
+
+## AI
+
+- Gemini API
+
+## Maps
+
+- OpenStreetMap
+
+## Deployment
+
+- Vercel
+- Railway
+
+## Version Control
+
+- Git
+- GitHub
+
+---
+
+# End of Chapter 5
+
+---
+
+# Chapter 6 – Future Scope
+
+- AI Complaint Detection
+- AI Chatbot
+- Flood Prediction
+- Smart Garbage Monitoring
+- IoT Sensors
+- Drone Inspection
+- Smart City Integration
+- Mobile Application
+- Voice Complaint System
+- Digital Ward Analytics
+- Budget Analytics
+- Predictive Maintenance
+
+---
+
+# End of SRS
